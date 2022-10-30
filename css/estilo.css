@@ -311,8 +311,8 @@ footer{
     background: rgb(34, 87, 122);
     width: 100%;
     margin-top: auto;
-    position: relative;
-
+    
+    padding: auto;
 }
  .h4footer{
     font-size: 25px;
@@ -328,15 +328,14 @@ footer{
 
 }
 .fotter{  /*ayuda-encontranos en*/
-    display: inline-flex;
-    margin-inline: 10%;
     font-size: 20px;
     color: rgb(87, 204, 153);
+    display: inline-flex;
+    margin-inline: 6%; 
 }
 .preguntasFrecuentes{
-    margin-inline: 150px;
-    margin-left: 100px;
-   
+    margin-inline: 6%;
+    margin-left: 6%;
 }
 .preguntasFrecuentes a:hover{
     background-color: rgb(128, 237, 153); /*Le doy color cuando se acerca*/
@@ -348,8 +347,8 @@ footer{
 }
 .quienesSomos{
     display: inline-flex;
-    margin-inline: 13%;
-    margin-left: 100px;
+    margin-inline: 1.8%;
+    margin-left: 6%;
     color: rgb(87, 204, 153);
 }
 .quienesSomos >a{
@@ -361,14 +360,6 @@ footer{
     background-color: rgb(128, 237, 153); /*Le doy color cuando se acerca*/
 }
 
-
-.horizontal {
-    display: inline-block;
-    list-style: none;
-    margin-left: 330px;
-    justify-content: space-evenly;
-    color: rgb(87, 204, 153);
-}
 
 
 /*lista de lo que esta abajo de ayuda*/
@@ -527,7 +518,7 @@ footer{
     /*-----------------------------------------------------------FOOTER--------------------------------------------*/
 
     .h4footer{
-        font-size: 15px;
+        font-size: 10px;
         margin-bottom: 10px;
     }
     .linea{
@@ -535,70 +526,54 @@ footer{
     }
     .fotter{ /*ayuda-encontranos en*/
 
-        font-size: 15px;
+        font-size: 10px;
+        display: inline-block;
 
     }
-    .preguntasFrecuentes{
-        margin-left: 2%;
-    } 
-  
+
     .preguntasFrecuentes >a{
-        font-size: 10px;
+        font-size: 8px;
     }
     .quienesSomos{
-        display: inline-flex;
-        justify-content: center;
-        margin-left: 50px;
-        font-size: 10px;
-        overflow: auto;
+        font-size: 8px;
     }
     .quienesSomos >a{
-        font-size: 10px;
+        font-size: 8px;
     }
     .horizontal {
-        font-size: 15px;
-        margin-left: 100px;
+        font-size: 10px;
+       
     }
     
     .lista2 a{  
-        margin-left: 100px;
-        font-size: 20px;
-        padding: 5px;
+      
+        font-size: 10px;
+       
     }
-
-
     .Imagenfoter{
-        top: 5px;
-        bottom: 5px;
         height: 25px;
         width:  25px;
     }
     .insta{
         width: 25px;
         height: 25px;
-        border-radius: 25px;
+        border-radius: 10px;
     }
     .instagram2{
-        height: 25px;
-        width:  25px; 
+        height: 27px;
+        width:  27px; 
     }    
     .findepag{
-        font-size: 15px;
+        font-size: 10px;
+       
     } 
-    
 }
-
 
 @media (max-width: 768px){  /*PARA TABLET*/
 
     /*-----MENU------*/
 
-    /* .inicio{
-        padding-left: 20px;
-    }
-    .ulinicio li >a{
-    font-size: 16px;
-    } */
+
     .check1{
         display: block;
        
@@ -669,28 +644,5 @@ left: 0;
     .h2productos{
         font-size: 30px;
     }
-    /*--------------FOOTER-----------*/
-
-    .footer{
-        border-bottom: 0;
-        bottom: 0;
-        margin-bottom: 0;
-        align-self: flex-end;
-
-
-    }
-    .fotter{ /*ayuda-encontranos en*/
-        
-        margin-inline: 30px;
-        margin-left: 90px;
-    }
  
-    .quienesSomos{
-        margin-inline: 30px;
-        margin-left:70px;
-    }
-    .preguntasFrecuentes{
-        margin-inline: 30px;
-        margin-left:70px;
-    }
 }
